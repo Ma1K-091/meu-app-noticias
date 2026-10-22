@@ -25,9 +25,26 @@ export const noticiasEsportes = [
   },
   {
     categoria: 'Esportes',
-    titulo: 'Neymar brilha em campo',
+    titulo: 'Neymar brilha em campo apos meses parado',
     resumo: 'Craque da seleção brasileira faz 3 gols...',
     conteudo:
       'O craque da seleção brasileira marcou três gols na partida e foi o grande destaque do jogo, garantindo a vitória da equipe.',
+  },
+];
+
+export const noticiasGames = [
+  {
+    categoria: 'Games',
+    titulo: 'Novo jogo de ação é lançado',
+    resumo: 'O novo jogo de ação traz gráficos impressionantes e uma história envolvente...',
+    conteudo:
+      'O novo jogo de ação traz gráficos impressionantes e uma história envolvente, oferecendo uma experiência de jogo inédita para os fãs da categoria.',
+  },
+  {
+    categoria: 'Games',
+    titulo: 'Ea Sports anuncia parceria com clube de futebol',
+    resumo: 'A empresa anuncia parceria com o clube para criar conteúdo exclusivo...',
+    conteudo:
+      'A Ea Sports anuncia parceria com o clube para criar conteúdo exclusivo, incluindo partidas especiais e novos personagens para o jogo.',
   },
 ];

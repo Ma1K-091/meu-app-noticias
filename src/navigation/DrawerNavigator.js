@@ -5,13 +5,6 @@ import TabNavigator from './TabNavigator';
 
 const Drawer = createDrawerNavigator();
 
-function TelaNoticias() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Tela de Notícias</Text>
-    </View>
-  );
-}
 
 function TelaSobre({ navigation }) {
   return (
@@ -35,6 +28,7 @@ export default function DrawerNavigator() {
     <Drawer.Navigator>
       <Drawer.Screen name="Noticias" component={TabNavigator} options={{title: 'Notícias',drawerIcon: ({ color, size }) => (<FontAwesome name="newspaper-o" size={size} color={color} />),}}/>
       <Drawer.Screen name="Sobre" component={TelaSobre} options={{drawerIcon: ({ color, size }) => (<FontAwesome name="info-circle" size={size} color={color} />),}}/>
+      
     </Drawer.Navigator>
   );
 }
